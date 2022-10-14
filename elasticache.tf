@@ -1,4 +1,4 @@
-resource "aws_elasticache_cluster" "exammainple" {
+resource "aws_elasticache_cluster" "main" {
   cluster_id           = local.TAG_PREFIX
   engine               = var.ELASTICACHE_ENGINE
   node_type            = var.ELASTICACHE_INSTANCE_CLASS
